@@ -8,37 +8,33 @@ linkedin.com/in/alxndr
 
     Summary
 
-I am a front-end generalist web developer most comfortable with open-source environments, but with some experience in proprietary technology as well. I'm conversant and literate in Mandarin Chinese and always interested in learning more languages (both human and computer). I am one of the (apparently) few people in this world who love regular expressions. My hobbies include cycling, word games, and photography.
+I am a front-end generalist web developer most comfortable in open-source languages. I'm conversant and literate in Mandarin Chinese and always interested in learning more languages (both human and computer). I am one of the (apparently) few people in this world who love regular expressions. My hobbies include cycling, word games, and photography.
 
 
     Objective
 
-I want to continue using and learning Ruby on Rails in a test-driven environment. I enjoy refactoring existing code as much as writing new features, so it's important to me to find an environment that  values code organization and cleanliness. After spending three months pair programming, I appreciate its usefulness in a team that can embrace it. I love the San Francisco Bay Area and while working remotely is not out of the question, I find it much easier to communicate when we are all in the same building.
+I want to continue using and learning Ruby on Rails in a test-driven environment. I value organized code and enjoy refactoring existing code as much as writing new features, so it's important to me to work on a team that respects code organization and cleanliness. After spending three months pair programming, I appreciate its usefulness in a team that can embrace it. I love the San Francisco Bay Area and while working remotely is not out of the question, it is much easier to communicate when people are face-to-face.
 
 
     Skills
 
-Programming languages and frameworks:
+Programming languages, frameworks, databases:
 
 *  Most comfortable in Ruby on Rails, Backbone.js, and jQuery
 *  Comfortable with Javascript, Ruby, Python, PHP, Perl, bash
-*  Familiar with Java and C++; looking for an excuse to learn Objective-C
-*  I particularly enjoy creating and dissecting regular expressions
-
-Databases
-
+*  Beginning to learn Objective-C
+*  Familiar with Java and C++
 *  Most comfortable with MySQL and PostgreSQL
 *  Some familiarity with MongoDB
+*  I particularly enjoy creating and dissecting regular expressions
 
 General web development
 
 *  Proficient in HTML5, XHTML, CSS3, Javascript
-*  Test-driven (or behavior-driven, or development-driven) development using Rspec and Jasmine
+*  Test-driven development using Rspec and Jasmine
 *  Implementing whole-site redesigns and new features and interactivity based on low-fidelity mockups and conversations with designers and site users
-*  Collaborating on UX improvements and concerns with designers during planning stages of site design and features
+*  Collaborating on user experience improvements and concerns with designers during planning stages of site design and features
 *  Using version control systems to collaborate with other developers
-*  Identifying and implementing potential SEO improvements by modifying individual page code, optimizing page components, and tweaking server configuration
-*  Creating systems to monitor brand placement in search engine result pages, and help identify trends and potential problems
 *  Installing, customizing, and maintaining WordPress and MediaWiki
 *  Strong attention to W3C standards, browser independence, and user accessibility
 
@@ -73,13 +69,11 @@ BA, East Asian Studies, concentration in Chinese language and literature. Additi
 
     Fun Facts
 
-*  Lover of human languages as well: I'm conversant and literate in Mandarin Chinese, was fluent in French in high school and could scrape by in Italian, can transliterate Cyrillic and some Arabic. My "to tackle next" list is Arabic, Swahili, and Lojban.
-*  Avid photographer, both film and digital; particularly fond of long (multi-hour) exposures and piecing together wide panoramas.
-*  Set up my first website when I was 16 and bored.
-*  I have been typing in Dvorak since 2003.
+*  My family is not named after self-replicating code; the code is named after my family.
+*  I have been typing in Dvorak for about ten years.
 *  My editor preferences are vim, TextMate, and RubyMine. PN2 offered a better development experience than any other Windows GUI available when I was looking (and it has a great regex engine).
-*  I hold a patent: #6,957,248, "System and method for forwarding electronic messages" (issued October 18, 2005; assigned to Pitney Bowes, Inc.).
-*  My family is not named after the self-replicating computer programs; the programs are named after my family.
+*  I'm a lover of human languages as well: I'm conversant and literate in Mandarin Chinese, was fluent in French in high school and could scrape by in Italian, can transliterate Cyrillic and some Arabic. My "to tackle next" list is Arabic, Swahili, and Lojban.
+*  I'm an avid photographer, both film and digital; particularly fond of long (multi-hour) exposures and piecing together wide panoramas.
 *  Etymology, semantics, and the serial comma are important to me.
 
 

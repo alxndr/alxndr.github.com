@@ -5,25 +5,27 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen+Mono|Rambla:400,700&amp;v1" />
     <meta name="robots" content="noindex,nofollow"/>
     <title>Resume — Alexander Quine</title>
+
     <style type="text/css">
       body { margin: 0; padding: 0; }
       body, p, li { font-size: 14pt; font-family: 'Rambla', 'Trebuchet MS', Helvetica, sans-serif; line-height: 1.5em; letter-spacing: 0.4px; color: #222; }
-      hr { width: 95%; }
-      p > b { color: #000; }
-
-      #header { width: 90%; margin: 0 auto; }
-      #name { margin: 0.5em; text-align: center; font-family: 'Oxygen Mono', monospace; font-size: 2em; }
-      #contactinfo { height: 2em; margin: 1em; padding: 0; list-style-type: none; text-align: center; }
-      #contactinfo li { display: inline; margin: 0.25em 1.5em; text-align: center; white-space: nowrap; }
-      #contactinfo #address { clear: left; }
-
-      #main { width: 80%; margin: 0 auto; }
-      .heading { padding: 0.5em 2em; background-color: gray; color: white; font-family: 'Oxygen Mono', monospace; font-size: 1.25em; }
-      .dates, .desc { display: block; }
       .printonly { display: none; }
 
+      h1 { margin: 1em; text-align: center; font-family: 'Oxygen Mono', monospace; font-size: 24pt; font-weight: normal; }
+      h2 { padding: 0.5em 1.2em; color: #fff; background-color: #555; font-family: 'Oxygen Mono', monospace; font-size: 17pt; font-weight: normal; }
+      h3 { font-weight: normal; font-size: 15pt; margin-bottom: 0; }
+      h3 > a { color: #22c; }
+
+      #header { width: 90%; margin: 0 auto; }
+      #contactinfo { margin: 1em; padding: 0; list-style-type: none; text-align: center; }
+      #contactinfo li { display: inline; margin: 0.25em 1.5em; font-size: 13pt; text-align: center; white-space: nowrap; }
+      #contactinfo #address { clear: left; }
+      #contactinfo #linkedin a { display: inline-block; width: 20px; height: 20px; background: url('icon-linkedin-20x20.png'); }
+      #main { width: 80%; margin: 0 auto; }
+      .dates, .desc { display: block; }
+
       #main li { margin-bottom: 1.5em; list-style: none; }
-      #main li li { margin-bottom: 0.5em; list-style: disc; }
+      #main li li { margin-bottom: 0.5em; list-style: square; }
       #main ul ul { margin: 0.5em 0 1em; }
 
       #footer { width: 70%; margin: 3em auto; }
@@ -31,10 +33,22 @@
       #valid { float: right; }
 
       @media print {
+        @page { size: 8.5in 11in; margin: 0.5cm; }
         #header, #main, #footer { width: auto !important; }
+        body, div, p, blockquote, li, span { font-size: 13pt; line-height: 1.3em; }
+        h1 { font-size: 18pt; }
+        h2 { font-size: 15pt; margin-top: 1em; page-break-after: avoid; background-color: transparent; color: #555; }
+        ul, li { page-break-inside: avoid; }
+        blockquote, ul { page-break-before: avoid; }
+        #contactinfo li { font-size: 12pt; margin: 0.25em 0.8em; }
+        #contactinfo #linkedin a { width: auto; background: none; }
+        #main ul ul { page-break-before: avoid; page-break-inside: avoid; }
+        #main li li { margin-bottom: 0; }
         a { color: black; text-decoration: none; }
         abbr { text-decoration: none; border: 0; }
+        .nobreak { page-break-inside: avoid; }
         .printonly { display: inline !important; }
+        h2 { padding: 0; }
         #valid { display: none; }
       }
     </style>
@@ -42,52 +56,56 @@
   <body>
 
     <div id="header">
-      <p id="name">Alexander Quine</p>
+      <h1>Alexander Quine</h1>
       <ul id="contactinfo">
         <li id="email"><a href="mailto:alxndr+resume@gmail.com" title="email: alxndr@gmail.com">alxndr@gmail.com</a></li>
         <li id="phone">(650) 488-7163</li>
         <li id="address">Oakland, CA</li>
         <li id="website"><a href="http://eleven-twelve.net" title="web site: eleven-twelve.net">eleven-twelve.net</a></li>
-        <li id="linkedin"><a href="http://www.linkedin.com/in/alxndr/" title="account on LinkedIn">linkedin.com/in/alxndr</a></li>
+        <li id="linkedin"><a href="http://www.linkedin.com/in/alxndr/" title="account on LinkedIn"><span class="printonly">linkedin.com/in/alxndr</span></a></li>
       </ul>
     </div>
 
     <div id="main">
 
-      <p class="heading">Summary</p>
-      <blockquote>I am a front-end generalist <b>web developer</b> most comfortable with open-source environments, but with some experience in proprietary technology as well. I'm conversant and literate in <b>Mandarin Chinese</b> and always interested in learning more languages (both human and computer). I am one of the (apparently) few people in this world who <b>love regular expressions</b>. My hobbies include cycling, word games, and photography.</blockquote>
+      <h2>Summary</h2>
+      <blockquote>
+        I am a front-end generalist <b>web developer</b> most comfortable in open-source languages.
+        I'm conversant and literate in <b>Mandarin Chinese</b> and always interested in learning more languages (both human and computer).
+        I am one of the (apparently) few people in this world who <b>love regular expressions</b>.
+        My hobbies include cycling, word games, and photography.
+      </blockquote>
 
-      <p class="heading">Objective</p>
-      <blockquote>I want to continue using and learning <b>Ruby on Rails</b> in a <b>test-driven environment</b>. I enjoy <b>refactoring existing code</b> as much as writing new features, so it's important to me to find an environment that <b> values code organization and cleanliness</b>. After spending three months <b>pair programming</b>, I appreciate its usefulness in a team that can embrace it. I love the <b>San Francisco Bay Area</b> and while working remotely is not out of the question, I find it much easier to <b>communicate</b> when we are all in the same building.</blockquote>
+      <h2>Objective</h2>
+      <blockquote>
+        I want to continue using and learning <b>Ruby on Rails</b> in a <b>test-driven environment</b>.
+        I value organized code and enjoy <b>refactoring existing code</b> as much as writing new features, so it's important to me to work on a team that <b>respects code organization and cleanliness</b>.
+        After spending three months <b>pair programming</b>, I appreciate its usefulness in a team that can embrace it.
+        I love the <b>San Francisco Bay Area</b> and while working remotely is not out of the question, it is much easier to <b>communicate</b> when people are face-to-face.
+      </blockquote>
 
-      <p class="heading">Skills</p>
+      <h2>Skills</h2>
       <ul>
 
-        <li><b>Programming languages and frameworks</b>
+        <li><h3 style="font-weight:bold">Programming languages, frameworks, databases</h3>
           <ul>
             <li>Most comfortable in Ruby on Rails, Backbone.js, and jQuery</li>
             <li>Comfortable with Javascript, Ruby, Python, PHP, Perl, bash</li>
-            <li>Familiar with Java and C++; looking for an excuse to learn Objective-C</li>
+            <li>Beginning to learn Objective-C</li>
+            <li>Familiar with Java and C++</li>
+            <li>Most comfortable with MySQL and PostgreSQL</li>
+            <li>Familiar with MongoDB</li>
             <li>I particularly enjoy creating and dissecting regular expressions</li>
           </ul>
         </li>
 
-        <li><b>Databases</b>
-          <ul>
-            <li>Most comfortable with MySQL and PostgreSQL</li>
-            <li>Some familiarity with MongoDB</li>
-          </ul>
-        </li>
-
-        <li><b>General web development</b>
+        <li><h3 style="font-weight:bold">General web development</h3>
           <ul>
             <li>Proficient in HTML5, XHTML, CSS3, Javascript</li>
-            <li>Test-driven (or behavior-driven, or development-driven) development using Rspec and Jasmine</li>
+            <li>Test-driven development using Rspec and Jasmine</li>
             <li>Implementing whole-site redesigns and new features and interactivity based on low-fidelity mockups and conversations with designers and site users</li>
-            <li>Collaborating on UX improvements and concerns with designers during planning stages of site design and features</li>
+            <li>Collaborating on user experience improvements and concerns with designers during planning stages of site design and features</li>
             <li>Using version control systems to collaborate with other developers</li>
-            <li>Identifying and implementing potential SEO improvements by modifying individual page code, optimizing page components, and tweaking server configuration</li>
-            <li>Creating systems to monitor brand placement in search engine result pages, and help identify trends and potential problems</li>
             <li>Installing, customizing, and maintaining <a href="http://wordpress.org/" title="WordPress - Blog Tool and publishing platform">WordPress</a> and <a href="http://www.mediawiki.org/wiki/MediaWiki" title="MediaWiki - free open source wiki software">MediaWiki</a></li>
             <li>Strong attention to <a href="http://www.w3.org/" title="W3C: the World Wide Web Consortium"><abbr title="World Wide Web Consortium">W3C</abbr></a> standards, browser independence, and user accessibility</li>
           </ul>
@@ -95,13 +113,11 @@
 
       </ul>
 
-      <p class="heading">Related Experience</p>
+      <h2>Related Experience</h2>
       <ul>
 
-        <li>
-          <span class="headline">
-            <b>Front End Developer:</b> <a href="http://www.current.com/" title="Current TV">Current TV<span class="printonly"> (http://www.current.com/)</span></a>, San Francisco, California
-          </span>
+        <li class="nobreak">
+          <h3><b>Front End Developer</b> at <a href="http://www.current.com/" title="Current TV">Current TV</a> (San Francisco, California)</h3>
           <div class="dates">August 2011 – present</div>
           <div class="desc">
             Agile test-driven Ruby on Rails development using RSpec, Jasmine, Backbone, jQuery, Pivotal Tracker.
@@ -111,10 +127,8 @@
           </div>
         </li>
 
-        <li>
-          <span class="headline">
-            <b>Developer:</b> <a href="http://www.wolfgangsvault.com/" title="Wolfgang's Vault">Wolfgang's Vault<span class="printonly"> (http://www.wolfgangsvault.com/)</span></a>, San Francisco, California
-          </span>
+        <li class="nobreak">
+          <h3><b>Developer</b> at <a href="http://www.wolfgangsvault.com/" title="Wolfgang's Vault">Wolfgang's Vault</a> (San Francisco, California)</h3>
           <div class="dates">October 2007 – July 2011</div>
           <div class="desc">Main coder and administrator for several websites:
             two <a href="http://wordpress.org/" title="WordPress - Blog Tool and publishing platform">WordPress</a> (PHP5) sites (IIS on Windows) with custom themes and plugins (40–120k visitors per month);
@@ -130,10 +144,8 @@
           </div>
         </li>
 
-        <li>
-          <span class="headline">
-            <b>Webmaster:</b> <a href="http://www.oberlin.edu/library/" title="Oberlin College Library System">Oberlin College Library System<span class="printonly"> (http://www.oberlin.edu/library/)</span></a>, Oberlin, Ohio
-          </span>
+        <li class="nobreak">
+          <h3><b>Webmaster</b> at <a href="http://www.oberlin.edu/library/" title="Oberlin College Library System">Oberlin College Library System</a> (Oberlin, Ohio)</h3>
           <div class="dates">November 2002 – August 2003; September 2005 – June 2007</div>
           <div class="desc">
             Maintained and updated custom database-backed web applications and static-content pages as needed for the four libraries on campus.
@@ -143,46 +155,41 @@
           </div>
         </li>
 
-        <li>
-          <span class="headline">
-            <b>Developer; Administrator; Founder:</b> <a href="http://oberwiki.net/" title="Oberwiki - The Oberlin Wiki">Oberwiki — The Oberlin Wiki<span class="printonly"> (http://oberwiki.net/)</span></a>
-          </span>
+        <li class="nobreak">
+          <h3><b>Developer, Administrator, Founder</b> of <a href="http://oberwiki.net/" title="Oberwiki - The Oberlin Wiki">Oberwiki — The Oberlin Wiki</a></h3>
           <div class="dates">August 2004 – present</div>
           <div class="desc">
             Deployed and maintained installation of MediaWiki (PHP5).
             Extended functionality by creating custom plugins and enabling third-party extensions to add features, increase usability, and prevent automated spam.
             Built custom theme designed by a user.
             Oberwiki is one of the first and still one of the largest wikis related to higher education, and has seen 5–10k visitors per month since 2009.
-            A more detailed <a href="http://oberwiki.net/Oberwiki:Changes" title="Oberwiki - log of changes">log of changes</a> is available<span class="printonly"> (http://oberwiki.net/Oberwiki:Changes)</span>.
           </div>
         </li>
 
-        <li>Webmaster of personal domains since 2001</li>
+        <li class="nobreak">Webmaster of personal domains since 2001</li>
 
       </ul>
 
-      <p class="heading">Education</p>
+      <h2>Education</h2>
       <ul>
         <li>
-          <span class="headline"><b>Oberlin College</b>, Oberlin, Ohio</span>
+          <h3>Oberlin College (Oberlin, Ohio)</h3>
           <div class="dates">Graduated May 2007.</div>
           <div class="desc">BA, East Asian Studies, concentration in Chinese language and literature. Additional coursework in photography and computer science.</div>
         </li>
       </ul>
 
-      <p class="heading">Fun Facts</p>
-      <ul>
-        <li>Lover of human languages as well: I'm conversant and literate in Mandarin Chinese, was fluent in French in high school and could scrape by in Italian, can transliterate Cyrillic and some Arabic. My "to tackle next" list is Arabic, Swahili, and <a href="http://en.wikipedia.org/wiki/Lojban" title="Wikipedia article on Lojban">Lojban</a>.</li>
-        <li>Avid photographer, both film and digital; particularly fond of long (multi-hour) exposures and piecing together wide panoramas.</li>
-        <li>Set up my first website when I was 16 and bored.</li>
-        <li>I have been typing in <a href="http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard" title="Dvorak Simplified Keyboard">Dvorak</a> since 2003.</li>
+      <h2>Fun Facts</h2>
+      <ul class="nobreak">
+        <li>My family is not named after <a href="http://en.wikipedia.org/wiki/Quine_(computing)" title="'A quine is a computer program which takes no input and produces a copy of its own source code as its only output. The standard terms for these programs in the computability theory and computer science literature are self-replicating programs, self-reproducing programs, and self-copying programs.'">self-replicating code</a>; the code is named after my family.</li>
+        <li>I have been typing in <a href="http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard" title="Dvorak Simplified Keyboard">Dvorak</a> for about ten years.</li>
         <li>My editor preferences are vim, TextMate, and RubyMine. <a href="http://www.pnotepad.org/" title="Programmer's Notepad">PN2</a> offered a better development experience than any other Windows GUI available when I was looking (and it has a great regex engine).</li>
-        <li>I hold a patent: <a href="http://www.google.com/patents?id=m5cVAAAAEBAJ" title="view this patent with Google Patent Search">#6,957,248, "System and method for forwarding electronic messages"</a> (issued October 18, 2005; assigned to Pitney Bowes, Inc.).</li>
-        <li>My family is not named after the <a href="http://en.wikipedia.org/wiki/Quine_(computing)" title="'A quine is a computer program which takes no input and produces a copy of its own source code as its only output. The standard terms for these programs in the computability theory and computer science literature are self-replicating programs, self-reproducing programs, and self-copying programs.'">self-replicating computer programs</a>; the programs are named after my family.</li>
+        <li>I'm a lover of human languages as well: I'm conversant and literate in Mandarin Chinese, was fluent in French in high school and could scrape by in Italian, can transliterate Cyrillic and some Arabic. My "to tackle next" list is Arabic, Swahili, and <a href="http://en.wikipedia.org/wiki/Lojban" title="Wikipedia article on Lojban">Lojban</a>.</li>
+        <li>I'm an avid photographer, both film and digital; particularly fond of long (multi-hour) exposures and piecing together wide panoramas.</li>
         <li>Etymology, semantics, and the serial comma are important to me.</li>
       </ul>
 
-      <p class="heading">References and letters of recommendation</p>
+      <h2>References and letters of recommendation</h2>
       <ul>
         <li>Available on request</li>
       </ul>
