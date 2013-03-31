@@ -2,36 +2,34 @@
 
 alxndr@gmail.com
 (650) 488-7163
-eleven-twelve.net
 linkedin.com/in/alxndr
 
 
     Summary
 
-I am a full-stack generalist web developer most comfortable with Ruby on Rails and JavaScript. I'm conversant and literate in Mandarin Chinese and always interested in learning more languages (both human and computer). I am one of the (apparently) few people in this world who love regular expressions. My hobbies include cycling, word games, and photography.
+I am a full-stack generalist web developer most comfortable in open-source languages, such as Ruby on Rails and JavaScript. I'm conversant and literate in Mandarin Chinese and always interested in learning more languages (both human and computer). I am one of the (apparently) few people in this world who love regular expressions. My hobbies include cycling, word games, and photography.
 
 
     Objective
 
-I want to continue using and learning Ruby on Rails in a test-driven environment. I value organized code and enjoy refactoring existing code as much as writing new features, so it's important to me to work on a team that respects code organization and cleanliness. After spending three months pair programming, I appreciate its usefulness in a team that can embrace it. I love the San Francisco Bay Area and while working remotely is not out of the question, it is much easier to communicate when people are face-to-face.
+I want to continue using Ruby on Rails, JavaScript, and related frameworks in a test-driven environment. I value organized code and enjoy refactoring existing code as much as writing new features, so it's important to me to work on a team that respects code organization and cleanliness. I enjoy pair programming in teams that work well together. I love the San Francisco Bay Area and while working remotely is not out of the question, I find it much easier to communicate when people are face-to-face.
 
 
     Skills
 
-Programming languages, frameworks, databases:
+Languages, frameworks, databases:
 
 *  Most comfortable in Ruby on Rails, and Javascript with Backbone.js or jQuery
-*  Also comfortable with Javascript, Ruby, Python, PHP, Perl, bash
+*  Also very comfortable with Python, PHP, Perl, bash
 *  Beginning to learn Objective-C
 *  Familiar with Java and C++
 *  Most comfortable with MySQL and PostgreSQL
-*  Some familiarity with MongoDB
-*  I particularly enjoy creating and dissecting regular expressions
+*  Familiar with MongoDB
 
-General web development
+General development:
 
 *  Proficient in HTML5, XHTML, CSS3, Javascript
-*  Test-driven development using Rspec and Jasmine
+*  Test-driven development using RSpec and Jasmine
 *  Implementing whole-site redesigns and new features and interactivity based on low-fidelity mockups and conversations with designers and site users
 *  Collaborating on user experience improvements and concerns with designers during planning stages of site design and features
 *  Using version control systems to collaborate with other developers
@@ -42,12 +40,12 @@ General web development
     Related Experience
 
 Front End Developer: Current TV (http://www.current.com/), San Francisco, California
-August 2011 - present
-Agile test-driven Ruby on Rails and Javascript development using RSpec, Jasmine, Backbone, jQuery, Pivotal Tracker. Helped create D3.js-based visualizations of data on interactive maps and graphs in SVG. Maintenance of and custom feature development on WordPress-based sites (1-2m visitors per month). Code versioning using both Git and Subversion.
+August 2011 - March 2013
+Agile test-driven development using Ruby on Rails, Javascript, RSpec, Jasmine, Backbone, and jQuery. Helped create D3.js-based visualizations of data on interactive maps and graphs in SVG. Maintenance of and custom feature development on WordPress-based sites (1-2m visitors per month). Code versioning using Git and Subversion. Used FogBugz and Pivotal Tracker to track feature requests, bugs, and other requirements.
 
 Developer: Wolfgang's Vault (http://www.wolfgangsvault.com/), San Francisco, California
 October 2007 - July 2011
-Main coder and administrator for several websites: two WordPress (PHP5) sites (IIS on Windows) with custom themes and plugins (40-120k visitors per month); two legacy HTML::Mason (Perl) frontends to one custom Python backend site (Apache on Linux; 10-20k visitors per month); three internal-facing MediaWiki (PHP) sites (Apache on Linux). Implemented complete redesigns and new features from low-fidelity mockups for these sites. Implemented new features, bug fixes, and design-related changes to .NET-based sites (1-2m visitors per month). Advised CEO and Chief of Marketing on SEO-related problems and goals, and implemented solutions when appropriate. Used a revision control system (SVN) to collaborate with other developers. Constructed content for and managed the sending (both in-house and via third party) of emails to customer lists (hundreds of thousands) multiple times per week. Served as technical liason to third-party email delivery service (MailChimp). Administration and troubleshooting for company computers.
+Lead developer for several WordPress and MediaWiki sites, as well as a custom legacy Perl/Python site. Implemented complete redesigns and new features from low-fidelity mockups for these sites. Migrated a site from a proprietary CMS to a fully customized WordPress installation. Operations support for a production Linux web server. Constructed all consumer-facing email and implemented several design changes to email templates. Served as technical liason to contracted email delivery service. Code versioning using Subversion.
 
 Webmaster: Oberlin College Library System (http://www.oberlin.edu/library/), Oberlin, Ohio
 November 2002 - August 2003; September 2005 - June 2007
@@ -55,23 +53,15 @@ Maintained and updated custom database-backed web applications and static-conten
 
 Developer; Administrator; Founder: Oberwiki - The Oberlin Wiki (http://oberwiki.net/)
 August 2004 - present
-Deployed and maintained installation of MediaWiki (PHP5). Extended functionality by creating custom plugins and enabling third-party extensions to add features, increase usability, and prevent automated spam. Built custom theme designed by a user. Oberwiki is one of the first and still one of the largest wikis related to higher education, and has seen 5-10k visitors per month since 2009. A more detailed log of changes is available (http://oberwiki.net/Oberwiki:Changes).
+Deployed and maintained an installation of MediaWiki. Created custom plugins and enabled third-party extensions to add features, increase usability, and prevent automated spam. Built a custom theme based on mockups designed by a user. Oberwiki is one of the first and still one of the largest wikis related to higher education, and has served thousands of visitors per month since 2009.
 
 Webmaster of personal domains since 2001
-
-
-    Education
-
-Oberlin College, Oberlin, Ohio
-Graduated May 2007.
-BA, East Asian Studies, concentration in Chinese language and literature. Additional coursework in photography and computer science.
 
 
     Fun Facts
 
 *  My family is not named after self-replicating code; the code is named after my family.
 *  I have been typing in Dvorak for about ten years.
-*  My editor preferences are vim, TextMate, and RubyMine. PN2 offered a better development experience than any other Windows GUI available when I was looking (and it has a great regex engine).
 *  I'm a lover of human languages as well: I'm conversant and literate in Mandarin Chinese, was fluent in French in high school and could scrape by in Italian, can transliterate Cyrillic and some Arabic. My "to tackle next" list is Arabic, Swahili, and Lojban.
 *  I'm an avid photographer, both film and digital; particularly fond of long (multi-hour) exposures and piecing together wide panoramas.
 *  Etymology, semantics, and the serial comma are important to me.
