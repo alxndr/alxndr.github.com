@@ -1,0 +1,51 @@
+wanted RubyMine inspections
+
+jasmine
+warn if createSpy() called with two params
+probably want createSpyObj()
+& vice versa
+warn if createSpyObj() called with 2nd param not an array
+probably want createSpy()
+warn if createSpy() called with more than one param (or array?)
+probably want createSpyObj
+warn if `this` used in it(block)
+probably want something ending in _view
+warn if spyOn only passed one param
+or if second is not a string
+warn if you're using <2.0 and try .and., or vice versa
+
+coffeescript:
+= in a `class` when you meant to `method: (params…) -> definition` like normal. e.g….
+class App.EntryMetadataEditView extends Backbone.Modal
+  serializeData: ->
+    @entry.toJSON()
+  substringMatcher = (strs) -> # this is the bad one, want a : not a =
+    whatever
+
+RequireJS
+warn when `define` async call has mismatched # of module dependencies declared vs # of parameters in callback
+warn when `define` can't find the modules you're trying to depend on
+
+jQuery
+$(selector, context)
+context.find(selector)
+
+javascript
+if (~something)
+if (something !== -1)
+
+rails
+if assets.yml has something that ends in .css or .js
+remove extension (asset pipeline adds it; silent failure otherwise)
+
+Backbone
+view
+warn if using bare $()
+might should be using this.$()
+
+Ruby
+map.flatten
+flat_map
+reverse.each
+reverse_each
+other stuff: https://github.com/bbatsov/ruby-style-guide
